@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Teangelo1/Taking_Notes/issues"
   },
-  "homepage": "https://github.com/Teangelo1/Taking_Notes#readme"
+  "homepage": "https://github.com/Teangelo1/Taking_Notes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
