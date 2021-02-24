@@ -11,8 +11,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); 
 app.use(express.static(__dirname + "/public")); // Allowing access to everything inside of the public folder.
 
-require('./routes/htmlRoutes')(app);
 require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
+
 
 
 
